@@ -112,6 +112,10 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Image List",
+            "value": "image-list"
           }
         ]
       }
@@ -188,6 +192,26 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "3 Column",
+            "value": "3-column"
+          },
+          {
+            "name": "2 Column", 
+            "value": "2-column"
+          }
+        ]
       }
     ]
   }
